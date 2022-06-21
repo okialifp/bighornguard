@@ -43,10 +43,15 @@ Route::get('/homepagenews', function () {
     return view('home.index');
 })->name('newsadmin');
 
+// Admin
 Route::get('/admin/news', [AdminController::class, 'newspage'])->name('all-news');
 Route::get('/admin/addnews', [AdminController::class, 'addnews'])->name('tambahnews');
 Route::get('/admin', [AdminController::class, 'indexnews'])->name('indexnews');
 Route::post('/admin/addnews', [AdminController::class, 'postnews'])->name('inipostnews');
+Route::post('/home', [AdminController::class, 'postcontact'])->name('inipostcontact');
 
+//home
 Route::get('/home', [HomeController::class, 'heroindex'])->name('indexhero');
 Route::get('/home/news/all', [HomeController::class, 'newsindex'])->name('newspageindex');
+
+

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models;
 use App\Models\news;
+use App\Models\Contact;
 
 class AdminController extends Controller
 {
@@ -45,5 +46,27 @@ class AdminController extends Controller
 		]);
  
 		return redirect()->back();
+    }
+
+    public function postcontact(Request $request)
+    {
+       // dd($request->all()); 
+
+       contact::create ([
+           'name' => $request->name,
+           'email' => $request->email,
+           'subject' => $request->subject,
+           'messages' => $request->messages,
+       ]);
+
+       if ($obj->save()) {
+
+        Session::flash('success', 'Saved Successfully !!');
+
+    } else {
+      Session::flash('error', 'Some thing went wrong!!');
+    }
+
+       return redirect();  
     }
 }
