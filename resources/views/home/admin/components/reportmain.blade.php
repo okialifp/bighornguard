@@ -44,7 +44,7 @@
                       <tbody>
                         @foreach($contact as $data)
                         <tr>
-                          <th>{{$data->id}}</th>
+                          <th>{{$loop->index+1}}</th>
                           <td>{{$data->name}}</td>
                           <td>{{$data->email}}</td>
                           <td>{{$data->subject}}</td>

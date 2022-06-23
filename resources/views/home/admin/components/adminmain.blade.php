@@ -43,7 +43,7 @@
                       <tbody>
                         @foreach($news as $data)
                         <tr>
-                          <th scope="row">1</th>
+                          <th scope="row">{{$loop->index+1}}</th>
                           <td><img width="150px" src="{{ url('/data_file/'.$data->file) }}"></td></td>
                           <td>{{$data->title}}</td>
                           <td>{{$data->description}}</td>

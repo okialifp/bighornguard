@@ -9,6 +9,17 @@
 
   <div class="row feature-icons" data-aos="fade-up">
     <div class="row">
+    <div class="col-xl-12 d-flex content">
+      <div class="col-md-4 text-center" data-aos="fade-right" data-aos-delay="100" >
+        <img src="{{ URL::to('src//img/hmi.png') }}" class="img-fluid p-4" alt="">
+      </div>  
+      <div class="col-md-4 text-center" data-aos="fade-right" data-aos-delay="100" >
+        <img src="{{ URL::to('src//img/fitur copy2.png') }}" class="img-fluid p-4" alt="">
+      </div>  
+      <div class="col-md-4 text-center" data-aos="fade-right" data-aos-delay="100" >
+        <img src="{{ URL::to('src//img/fitur grapic.png') }}" class="img-fluid p-4" alt="">
+      </div>  
+    </div>
 
       <div class="col-xl-3 text-center" data-aos="fade-right" data-aos-delay="100" >
         <img src="{{ URL::to('src//img/hmi.png') }}" class="img-fluid p-4" alt="">
