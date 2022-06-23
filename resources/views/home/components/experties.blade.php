@@ -2,7 +2,7 @@
 <section id="features" class="experties" data-aos="fade-down">
 <div class="container" data-aos="fade-up">
         <header class="section-header">
-            <p style="color: #Black;">Our Expreties</p>
+            <p style="color: #Black;">Our Experties</p>
             <br>
             
 

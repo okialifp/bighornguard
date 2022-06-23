@@ -13,6 +13,11 @@ class AdminController extends Controller
         return view('home.admin.news-admin');
     }
 
+    public function indexreport(){
+        $contact = contact::paginate(10);
+        return view('home.admin.components.reportmain',compact('contact'));
+    }
+
     public function addnews(){
         
         return view('home.admin.components.tambahnews');
@@ -67,6 +72,6 @@ class AdminController extends Controller
       Session::flash('error', 'Some thing went wrong!!');
     }
 
-       return redirect();  
+       return redirect('home');  
     }
 }

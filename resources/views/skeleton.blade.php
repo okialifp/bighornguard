@@ -46,6 +46,7 @@
   <link rel="stylesheet" href="{{URL::to('src/news/css/nice-select.css')}}">
   <link rel="stylesheet" href="{{URL::to('src/news/css/style.css')}}">
   <link rel="stylesheet" href="{{URL::to('src/news/css/slider.css')}}">
+  <link rel="stylesheet" href="{{URL::to('src/bs4/css/bootstrap.min.css')}}">
 
   <!-- Template Main CSS File -->
   <link href="{{ URL::to('src/css/style.css') }}" rel="stylesheet">
@@ -127,6 +128,7 @@
         <script src="{{URL::to('src/news/js/jquery.validate.min.js')}}"></script>
         <script src="{{URL::to('src/news/js/mail-script.js')}}"></script>
         <script src="{{URL::to('src/news/js/jquery.ajaxchimp.min.js')}}"></script>
+        <script src="{{URL::to('src/bs4/js/bootstrap.min.js')}}"></script>
         
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="{{URL::to('src/news/js/plugins.js')}}"></script>

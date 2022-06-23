@@ -36,7 +36,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html"> <img src="{{ URL::to('src/img/BHG.png') }}" alt="..." class="img-circle profile_img"></a>
+              <a href="{{route('indexhero')}}"> <img src="{{ URL::to('src/img/BHG.png') }}" alt="..." class="img-circle profile_img"></a>
             </div>
 
             <div class="clearfix"></div>
@@ -64,7 +64,7 @@
                     <ul class="nav child_menu">
                       <li><a href="{{route('indexnews')}}">News</a></li>
                       <li><a href="index2.html">Learning</a></li>
-                      <li><a href="index3.html">Report</a></li>
+                      <li><a href="{{route('indexreport')}}">Report</a></li>
                     </ul>
                   </li>
                   </li>

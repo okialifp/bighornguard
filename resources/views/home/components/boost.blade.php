@@ -8,8 +8,9 @@
     </div>
     <div class="container">
     <div class="container">
-   <h6 class="text-muted" style="font-size:15px; color:black;">Description List</h6>
-  
+      <br>
+   <h6 class="text-muted" style="font-size:18px; color:black;">Description List</h6>
+  <br>
   <dl class="row">
     <dt class="col-sm-3" style="font-size:15px;">Enhance the Monitoring process</dt>
     <dd class="col-sm-9" style="font-size:15px;">Much of the detailed data collected can be evaluated to improve processes, make them more efficient, and save costs.</dd>

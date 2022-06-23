@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 d-flex flex-column justify-content-center">
-        <img src="{{ URL::to('src/img/topologi_web.png') }}"></img>
+        <img src="{{ URL::to('src/img/Topology 2.png') }}"></img>
       </div>
     </div>
   </div>
