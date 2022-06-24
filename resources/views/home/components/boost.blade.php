@@ -2,14 +2,12 @@
 <section id="features" class="boost" data-aos="fade-down">
 <div class="container" data-aos="fade-up">
         <header class="section-header" style="background-color:black">
-            <h1 style="color: #white;">More than your Data Acquisition Partner</h1>
-          <h3 style="color: #white; font-weight: 700;">We boost you process by</h3>
+            <h1 style="color: #white;">MORE THAN YOUR DATA ACQUISITION PARTNER</h1>
+          <h3 style="color: #white; font-weight: 700;">We boost process by</h3>
         </header>
     </div>
     <div class="container">
     <div class="container">
-      <br>
-   <h6 class="text-muted" style="font-size:18px; color:black;">Description List</h6>
   <br>
   <dl class="row">
     <dt class="col-sm-3" style="font-size:15px;">Enhance the Monitoring process</dt>

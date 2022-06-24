@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 25px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #BF6600;
+  color: black;
   text-transform: uppercase;
 }
 .section-header p {
@@ -401,7 +401,7 @@ section {
 }
 .inilearning {
   width: 100%;
-  height: 100vh;
+  height: fit-content;
   background: url(../img/learning/asset-learning.png) top center repeat fixed;
   background-size: cover;
 }
@@ -724,6 +724,14 @@ section {
   color: #848484;
 }
 
+.features .feature-icons .content .img-fluid:hover {
+  transform: scale(1.5); 
+}
+
+.features .feature-icons .content .img-fluid {
+  transition: transform .25s, visibility .25s ease-in;
+}
+
 .experties .features-icons .content .icon-box2 p {
   font-size: 16px;
   color: black;
@@ -732,9 +740,13 @@ section {
 .experties {
   width: 100%;
   height: fit-content;
-  background: url(../img/epf.jpeg) top center repeat fixed;
-  background-size: 1074px;
+  background: url(../img/bg_serve2\ 65.jpg)top center no-repeat fixed;
+  background-size: cover;
 }
+
+
+
+
 
 .boost h1 {
   font-size: 30px;
@@ -1535,14 +1547,14 @@ section {
 --------------------------------------------------------------*/
 .contact {
   width: 100%;
-  height: 100vh;
-  background: url(../img/about/images/boost_02.png) top center no-repeat ;
+  height: fit-content;
+  background: url(../img/images/images/images/fix_02.png) top center no-repeat ;
   background-size: cover;
 }
 .boost {
   width: 100%;
   height: 100vh;
-  background: url(../img/about/images/boost_01.png) top center no-repeat ;
+  background: url(../img/images/images/images/fix_01.png) top center no-repeat ;
   background-size: cover;
 }
 .contact .info-box {
@@ -1583,7 +1595,7 @@ section {
 }
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #18d26e;
   background: #18d26e;
   text-align: center;
   padding: 15px;

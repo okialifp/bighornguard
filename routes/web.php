@@ -50,6 +50,8 @@ Route::get('/admin', [AdminController::class, 'indexnews'])->name('indexnews');
 Route::post('/admin/addnews', [AdminController::class, 'postnews'])->name('inipostnews');
 Route::post('/home', [AdminController::class, 'postcontact'])->name('inipostcontact');
 Route::get('/report', [AdminController::class, 'indexreport'])->name('indexreport');
+Route::get('/report', [AdminController::class, 'indexreport'])->name('indexreport');
+Route::get('/admin/news/{id}', [AdminController::class, 'detailnews'])->name('newsdetail');
 
 //home
 Route::get('/home', [HomeController::class, 'heroindex'])->name('indexhero');

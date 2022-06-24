@@ -3,7 +3,7 @@
   <div>
     <div class="container" data-aos="fade-up">
         <header class="section-header">
-            <p style="color: #FFFFFF;">Measurement Unit</p>
+            <p style="color: #FFFFFF;">Measurement Unit Transmitter</p>
         </header>
     </div>
     <div class="row features-icons" data-aos="fade-up">
@@ -15,7 +15,7 @@
             <i class="ri-drop-line icon" style="font: size 10px;"></i>
             <div>
               <h4>Multi Point Liquid Level</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>Suitable for the measurement of liquid level with high precision and accuracy reaches 0.1mm. Can also be applied between multiple different liquids. </p>
             </div>
           </div>
 
@@ -23,7 +23,7 @@
             <i class="ri-dashboard-2-line icon"></i>
             <div>
               <h4>Pressure</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>A sensitive device that converts the pressure on the test piece into an electrical signal. </p>
             </div>
           </div>
 
@@ -31,7 +31,7 @@
             <i class="ri-heavy-showers-line icon"></i>
             <div>
               <h4>Temperature</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>Converts the thermocouple or RTD signal to a 4-20 mA output signal and is the ideal solution for remote temperature measurement applications. </p>
             </div>
           </div>
 
@@ -39,7 +39,7 @@
             <i class="ri-meteor-fill icon"></i>
             <div>
               <h4>RPM</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>RPM stands for rotation per minute, use as a measure of how fast any machine is operating at a given time.  </p>
             </div>
           </div>
 
@@ -47,7 +47,7 @@
             <i class="ri-temp-hot-line icon" aria-hidden="true"></i>
             <div>
               <h4>Diferrential Pressure</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>Suitable for the measurement gas flow rate and control situations of strong corrosion. </p>
             </div>
           </div>
           
@@ -55,14 +55,14 @@
             <i class="ri-fire-line icon"></i>
             <div>
               <h4>Electricity Measurement</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>Measure the current running through a wire by using the magnetic field to detect and generate a proportional output. </p>
             </div>
           </div>
           <div class="col-md-4 icon-box" data-aos="fade-up">
             <i class="ri-drop-line icon" style="font: size 10px;"></i>
             <div>
               <h4>Multi Gas Detector</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>Measure the compound substances and can accurately detect gas leakage or concentration of a particular hazardous gas in the air. </p>
             </div>
           </div>
 
@@ -70,7 +70,7 @@
             <i class="ri-dashboard-2-line icon"></i>
             <div>
               <h4>Gas Rate</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>Measure the compound substances and can accurately detect gas leakage or concentration of a particular hazardous gas in the air. </p>
             </div>
           </div>
 
@@ -78,7 +78,7 @@
             <i class="ri-heavy-showers-line icon"></i>
             <div>
               <h4>Production Rate</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>Combined integrated parameter that is formulated to produce production ratio information.  </p>
             </div>
           </div>
 
@@ -86,7 +86,23 @@
             <i class="ri-meteor-fill icon"></i>
             <div>
               <h4>Flowmeter</h4>
-              <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+              <p>Precision flow control instruments integrating turbine flow sensor and display integration calculation. </p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <i class="ri-meteor-fill icon"></i>
+            <div>
+              <h4>Sand content</h4>
+              <p>Suitable to detect solid particle in solid–liquid flow.  </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <i class="ri-meteor-fill icon"></i>
+            <div>
+              <h4>Depth</h4>
+              <p>Measure the depth used for system record i.e. in wireline logging. </p>
             </div>
           </div>
 

@@ -5,7 +5,7 @@
   <header class="section-header">
     <p>Services</p>
     <br>
-    <h2>We Service To</h2>
+    <h2>How our technology works</h2>
   </header>
 
  

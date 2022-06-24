@@ -6,6 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>@yield('test','Bighorn Guard')</title>
+  <img src="{{ URL::to('src/img/bhtitle.png') }}" alt="">
   <meta content="" name="description">
 
   <meta content="" name="keywords">

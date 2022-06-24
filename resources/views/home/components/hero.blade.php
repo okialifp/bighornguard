@@ -46,7 +46,7 @@
                         <div class="trend-top-img carousel-item {{ $key == 0 ? 'active' : '' }}">
                         <img src="{{ url('/data_file/'.$row->pictures) }}" alt="" style="height:300px; width:800px;">
                           <div class="trend-top-cap">
-                            <h2><a href="details.html">{{$row->title}}</a></h2>
+                            <h2><a href="{{route('newsdetail',$row->id)}}">{{$row->title}}</a></h2>
                           </div>
                         </div>
                         @endforeach

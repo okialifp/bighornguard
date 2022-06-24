@@ -64,14 +64,15 @@ class AdminController extends Controller
            'messages' => $request->messages,
        ]);
 
-       if ($obj->save()) {
+       session()->flash('success','Pesan Berhasil Terkirim');
+       session()->flash('error','Pesan Tidak Berhasil Terkirim');
 
-        Session::flash('success', 'Saved Successfully !!');
-
-    } else {
-      Session::flash('error', 'Some thing went wrong!!');
+       return redirect();  
     }
 
-       return redirect('home');  
+    public function detailnews($id)
+    {
+        $news = news::get($id);
+        return view('home.admin.components.detail',['news' => $news]);
     }
 }

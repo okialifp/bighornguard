@@ -7,7 +7,7 @@
           <h3>Contact Us</h3>
         </header>
 
-        <div class="row gy-4">
+        <div class="row features-icons">
 
           <div class="col-lg-6">
 
@@ -67,13 +67,23 @@
 
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  @if(session()->has('success'))
+                  <div class="alert alert-success">
+                    {{session()->get('succes')}}
+                  </div>
+                @endif
+                @if(session()->has('error'))
+                  <div class="alert alert-danger">
+                    {{session()->get('error')}}
+                  </div>
+                @endif
+                  <div class="sent-message">{{session()->get('succes')}}</div>
                   <div class="error-message">Your message has been sent. Thank you!</div>
-                  
+                 
 
-                  <input type="submit" value="Send Messages" class="btn btn-primary">
                 </div>
-
+                
+                <input type="submit" value="Send Messages" class="btn btn-primary">
               </div>
             </form>
 
