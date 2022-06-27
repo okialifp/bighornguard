@@ -2,6 +2,7 @@
 @section('mainadmin')
 <div class="right_col" role="main">
           <div class="">
+          
             <div class="page-title">
               <div class="title_left">
                 <h3>News <small>Upload News Updated</small></h3>
@@ -42,11 +43,11 @@
                         </tr>
                       </thead>
                       <tbody>
-                        @foreach($news as $data)
+                        @foreach($news as $row => $data)
                         <tr>
                           <th scope="row">{{$data->id}}</th>
                           <td><img width="150px" src="{{ URL::to('data_file/'.$data->pictures) }}"></td></td>
-                          <td>{{$data->title}}</td>
+                          <td>{{$data->title??''}}</td>
                           <td>{{$data->description}}</td>
                           <td>{{$data->created_at}}</td>
                         </tr>

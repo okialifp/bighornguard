@@ -6,11 +6,15 @@
               <div class="title_left">
                 <h3>News <small>Upload News Updated</small></h3>
               </div>
-
               
               <div class="clearfix"></div>
-
+              
               <div class="col-md-12 col-sm-12  ">
+              @if(session()->has('success'))
+                  <div class="alert alert-success">
+                    {{session()->get('success')}}
+                  </div>
+                @endif
                 <div class="x_panel">
                   <div class="x_title">
                     <h2>Tabel News <small>Insert New Data News</small></h2>

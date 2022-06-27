@@ -24,8 +24,8 @@ class AdminController extends Controller
     }
 
     public function indexnews(){
-        $news = news::get();
-        return view('home.admin.components.hero',['news' => $news]);
+        $news = news::paginate(10);
+        return view('home.admin.components.hero',compact('news'));
     }
 
     public function postnews(Request $request) {
@@ -49,6 +49,8 @@ class AdminController extends Controller
 			'pictures' => $nama_file,
 			'description' => $request->description,
 		]);
+
+        session()->flash('success','Berhasil Menambahkan Data');
  
 		return redirect()->back();
     }
@@ -65,14 +67,15 @@ class AdminController extends Controller
        ]);
 
        session()->flash('success','Pesan Berhasil Terkirim');
-       session()->flash('error','Pesan Tidak Berhasil Terkirim');
 
-       return redirect();  
+       return redirect()->back;  
     }
 
     public function detailnews($id)
     {
-        $news = news::get($id);
-        return view('home.admin.components.detail',['news' => $news]);
+         
+        $news = news::find($id);
+         return view('home.admin.components.detail',compact('news'));
+
     }
 }

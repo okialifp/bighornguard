@@ -53,8 +53,9 @@ Route::get('/report', [AdminController::class, 'indexreport'])->name('indexrepor
 Route::get('/report', [AdminController::class, 'indexreport'])->name('indexreport');
 Route::get('/admin/news/{id}', [AdminController::class, 'detailnews'])->name('newsdetail');
 
+
 //home
 Route::get('/home', [HomeController::class, 'heroindex'])->name('indexhero');
 Route::get('/home/news/all', [HomeController::class, 'newsindex'])->name('newspageindex');
-
+Route::get('/admin/news/{id}', [HomeController::class, 'detailnews'])->name('newsdetail');
 

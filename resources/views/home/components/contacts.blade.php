@@ -6,12 +6,12 @@
           <p>Contact </p>
           <h3>Contact Us</h3>
         </header>
-
+      </div>
         <div class="row features-icons">
-
+            
           <div class="col-lg-6">
 
-            <div class="row gy-4">
+            <div class="row gy-4" style="margin-left:10px;">
               <div class="col-md-6">
                 <div class="info-box" style="border-radius:10px;">
                   <i class="bi bi-geo-alt"></i>
@@ -20,7 +20,7 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="info-box" style="height:270px; border-radius:10px;">
+                <div class="info-box" style="height:250px; border-radius:10px;">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
                   <p>(021) 7822 543<br>(021) 7822 544</p>
@@ -45,9 +45,9 @@
           </div>
 
           <div class="col-lg-6" style="border-radius:10px;">
-            <form action="{{route('inipostcontact')}}" method="POST" class="php-email-form" enctype="multipart/form-data">
+            <form style="margin-right:10px;" action="{{route('inipostcontact')}}" method="POST" class="php-email-form" enctype="multipart/form-data">
             {{ csrf_field() }}
-              <div class="row gy-4">
+              <div class="row gy-4" style="margin-right:10px;">
               
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -67,19 +67,13 @@
 
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
+                  <div class="sent-message">{{session()->get('success')}}</div>
+                  <div class="error-message">Your message has been sent. Thank you!</div>
                   @if(session()->has('success'))
                   <div class="alert alert-success">
-                    {{session()->get('succes')}}
+                    {{session()->get('success')}}
                   </div>
                 @endif
-                @if(session()->has('error'))
-                  <div class="alert alert-danger">
-                    {{session()->get('error')}}
-                  </div>
-                @endif
-                  <div class="sent-message">{{session()->get('succes')}}</div>
-                  <div class="error-message">Your message has been sent. Thank you!</div>
-                 
 
                 </div>
                 
@@ -90,7 +84,6 @@
           </div>
 
         </div>
-
-      </div>
+    
 
     </section><!-- End Contact Section -->

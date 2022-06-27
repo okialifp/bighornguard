@@ -8,7 +8,7 @@
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="/img/BHG.png" alt="">
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <P>BighordGuard is a leading provider of real-time wireless data monitoring solutions headquartered in Jakarta, Indonesia. The company’s proprietary Lovoten uses next-generation of data aquisition instrument to capture real-time pressure, temperature and many measurement to any device in second speed.The technology has primarily been deployed for monitoring production facilities and processes. </P>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -31,8 +31,6 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">EMR</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">SRO</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">LIQUID LEVEL</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">TEMPERAURE</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">DETEKTOR GAS</a></li>
@@ -42,11 +40,11 @@
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+            Jl. Warung Jati Barat No.22A, RT.1/RW.11 <br>
+            Ragunan, Kec. Ps. Minggu, Kota Jakarta Selatan<br>
+            Daerah Khusus Ibukota Jakarta 12740<br><br>
+              <strong>Phone:</strong>(021) 7822543<br>
+              <strong>Email:</strong> marketing@aeon-rt.com<br>
             </p>
 
           </div>

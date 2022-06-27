@@ -39,7 +39,7 @@
                 {{$data->description}} 
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="{{route('newsdetail',$data->id)}}">Read More</a>
                 </div>
               </div>
               <br>

@@ -25,7 +25,7 @@
           </div>
 
           <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="200">
-          <img src="{{ URL::to('src/img/clients/iascb.png') }}" class="img-fluid" alt="" style="height:50px; padding-right:10px;">
+          <img src="{{ URL::to('src/img/clients/sni.png') }}" class="img-fluid" alt="" style="height:50px; padding-right:10px;">
             <div>
               <h4 style="color:black;">SNI </h4>
               <p style="color:black;">Pre-Certified product in Indonesian National Standard.x</p>
@@ -49,7 +49,7 @@
           </div>
           
           <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="500">
-          <img src="{{ URL::to('src/img/clients/ip67 copy 2.png') }}" class="img-fluid" alt="" style="height:50px; padding-right:5px;">
+          <img src="{{ URL::to('src/img/clients/djki.jpg') }}" class="img-fluid" alt="" style="height:50px; padding-right:5px;">
             <div>
               <h4 style="color:black;">DJKI </h4>
               <p style="color:black;">Registered brand in Direktorat Jenderal Kekayaan Intelektual </p>
