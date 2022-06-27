@@ -732,9 +732,6 @@ section {
   transition: transform .25s, visibility .25s ease-in;
 }
 
-.experties .features-icons .content .icon-box2 {
- background:rgba(0, 0, 0, 0.5) ;
-}
 
 .experties .features-icons .content .icon-box2 p {
   font-size: 16px;
@@ -743,14 +740,13 @@ section {
 
 .experties .features-icons .content .row .icon-box2 h4 {
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 .experties {
   width: 100%;
   height: fit-content;
-  background: url(../img/bg_serve2\ 65.jpg) top center fixed no-repeat ;
-  background-size: cover;
+  background-color: #EFEFEF ;
 }
 
 

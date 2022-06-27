@@ -7,7 +7,7 @@
       </a>
 
       <nav id="navbar" class="navbar">
-        <ul>
+        <ul  style="height:1px;">
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#certificate">Certificate</a></li>
           <li><a class="nav-link scrollto" href="#features">SCADA</a></li>
@@ -15,8 +15,8 @@
           <li><a class="nav-link scrollto" href="#product">Product</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link scrollto" href="#learning">Learning</a></li>   
-          <li><a class="nav-link scrollto" href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li> 
-          <li><a class="nav-link scrollto" href="{{route('login')}}"><i class="fa fa-search-plus" aria-hidden="true" style="width:100px"></i></a></li>
+          <li><a class="nav-link scrollto" href="#"><i class="fa-solid fa-handshake"></i></a></li> 
+          <li><a class="nav-link scrollto" href="{{route('login')}}"><i class="fa-solid fa-right-to-bracket"></i></a></li>
         <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->  
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

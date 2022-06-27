@@ -4,7 +4,7 @@
 
 <div class="container" data-aos="fade-up">
     <header class="section-header">
-    <p>Feature Highlight</p>
+    <p><img src="{{ URL::to('src/img/BHG.png') }}" alt="" style="width:300px;">&nbsp;Feature Highlight</p>
   </header>
 
   <div class="row feature-icons" data-aos="fade-up">

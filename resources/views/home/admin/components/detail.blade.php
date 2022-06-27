@@ -50,7 +50,7 @@
             <p>$news->description??''</p>
             <img src="{{ URL::to('data_file/'.$news->pictures??'') }}" class="img-fluid" alt="">
 
-            <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
+            <h3>{{$news->description}}</h3>
             <p>
               Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel.
               Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.

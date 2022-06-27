@@ -71,11 +71,5 @@ class AdminController extends Controller
        return redirect()->back;  
     }
 
-    public function detailnews($id)
-    {
-         
-        $news = news::find($id);
-         return view('home.admin.components.detail',compact('news'));
-
-    }
+    
 }

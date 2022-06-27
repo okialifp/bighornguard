@@ -14,6 +14,7 @@ class HomeController extends Controller
     
     public function newsindex(){
         $news = news::get();
+        dd($news);
         return view('home.news.index',['news' => $news]);
     }
 

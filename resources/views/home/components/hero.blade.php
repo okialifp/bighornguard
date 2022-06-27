@@ -26,11 +26,11 @@
                     <div class="col-lg-12">
                         <div class="trending-tittle">
                           @foreach ($news as $data)
-                            <a href="{{route('newspageindex')}}"><strong><span>News</span></strong></a>
+                            <a data-aos="fade-up" href="{{route('newspageindex')}}"><strong><span>News</span></strong></a>
                             <!-- <p>Rem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
                             <div class="trending-animated">
                                 <ul id="js-news" class="js-hidden">
-                                    <li class="news-item">{{$data->title}}</li>
+                                    <li  class="news-item"> {{ isset($data->title) ? $data->title : null }}</li>
                                 </ul>
                             </div>
                             @endforeach
@@ -44,9 +44,9 @@
                       <div class="trending-top mb-30 carousel-inner">
                         @foreach($news as $key => $row)
                         <div class="trend-top-img carousel-item {{ $key == 0 ? 'active' : '' }}">
-                        <img src="{{ url('/data_file/'.$row->pictures) }}" alt="" style="height:300px; width:800px;">
+                        <img src="{{ asset('/data_file/'. $row['pictures'??'']) }}" alt="" style="height:300px; width:800px;">
                           <div class="trend-top-cap">
-                            <h2><a href="{{route('newsdetail',$row->id)}}">&nbsp;&nbsp;&nbsp;&nbsp;{{$row->title}}</a></h2>
+                            <h2><a href="{{route('newsdetail',$row->id)}}">&nbsp;&nbsp;&nbsp;&nbsp;{{ isset($data->title) ? $data->title : null }}</a></h2>
                           </div>
                         </div>
                         @endforeach
