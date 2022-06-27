@@ -2,12 +2,13 @@
 @section('main')
 @include('home.components.hero')
 @include('home.components.experties')
-@include('home.components.features2')
 @include('home.components.services')
+@include('home.components.features2')
 @include('home.components.features')
+@include('home.components.certificate')
 @include('home.components.boost')
-@include('home.components.contacts')
 @include('home.components.values')
+@include('home.components.contacts')
 
 @endsection     
 

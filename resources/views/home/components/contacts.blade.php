@@ -14,29 +14,28 @@
             <div class="row gy-4" style="margin-left:10px;">
               <div class="col-md-6">
                 <div class="info-box" style="border-radius:10px;">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>Jl. Warung Jati Barat No.22A, RT.1/RW.11, Ragunan, Kec. Ps. Minggu <br>Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta </p>
+                  <h3><i class="fa-solid fa-address-book fa-sm" style="height:10px;"></i>&nbsp;Address</h3>
+                  <p>Jl. Warung Jati Barat No.22A, RT.1/RW.11, Ragunan, Kec. Ps.Minggu,  Jakarta Selatan</p>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="info-box" style="height:250px; border-radius:10px;">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
+                <div class="info-box" style="height:160px; border-radius:10px;">
+                  
+                  <h3><i class="bi bi-telephone"></i>&nbsp;Call Us</h3>
                   <p>(021) 7822 543<br>(021) 7822 544</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box" style="border-radius:10px;">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
+                  
+                  <h3><i class="bi bi-envelope"></i>&nbsp;Email Us</h3>
                   <p>Marketing@aeon-rt.com<br>support@aeon-rt.com</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box" style="border-radius:10px;">
-                  <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
+                  
+                  <h3><i class="bi bi-clock"></i>&nbsp;Open Hours</h3>
                   <p>Monday - Friday<br>9:00AM - 05:00PM</p>
                 </div>
               </div>

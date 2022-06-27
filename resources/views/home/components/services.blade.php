@@ -3,9 +3,9 @@
 <div class="container" data-aos="fade-up">
 
   <header class="section-header">
-    <p>Services</p>
+    <p>Overview</p>
     <br>
-    <h2>How our technology works</h2>
+    <h2>How the Technology Works</h2>
   </header>
 
  
