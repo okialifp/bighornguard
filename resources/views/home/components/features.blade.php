@@ -70,8 +70,8 @@
             <i class="ri-dashboard-2-line icon"></i>
             <div>
               <h4>Gas Rate</h4>
-              <p>Measure the compound substances and can accurately detect gas leakage or concentration of a particular hazardous gas in the air. </p>
-            </div>
+              <p>The accurate gas flow measurement ensures a safe, efficient, and environmentally compliant operation in many applications.  </p>
+              </div>
           </div>
 
           <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="200">

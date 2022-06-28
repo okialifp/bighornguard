@@ -72,8 +72,8 @@
           <div class="col-md-3 icon-box" data-aos="fade-up" data-aos-delay="300">
             <i class="fa-solid fa-sliders"></i>
             <div>
-              <h4>Flexible Display</h4>
-              <p>Bighorn Guard layout can adjust to the screen size used.</p>
+              <h4>Program Logic Controller</h4>
+              <p>Programmable controller used for automation of typically industrial electromechanical processes - as to control the equipment process, machinery on factory assembly lines, light fixtures, safety control device.</p>
             </div>
           </div>
 
