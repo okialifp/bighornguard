@@ -11,18 +11,24 @@ class HomeController extends Controller
         $news = news::get();
         return view('home.index',['news' => $news]);
     }
-    
-    public function newsindex(){
-        $news = news::get();
-        dd($news);
-        return view('home.news.index',['news' => $news]);
-    }
 
     public function detailnews($id)
     {
          
-        $news = news::find($id);
-         return view('home.admin.components.detail',compact('news'));
+        $news = news::get();
+        $detailNews = news::find($id);
+         return view('home.admin.components.detail',compact('news', 'detailNews'));
 
     }
+    
+    public function newsindex(){
+        $news = news::get();
+        return view('home.news.index',['news' => $news]);
+    }
+
+    public function carrerindex(){
+        $news = news::get();
+        return view('home.components.carrer',compact('news'));
+    }
+    
 }

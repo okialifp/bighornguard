@@ -44,9 +44,9 @@
                       <div class="trending-top mb-30 carousel-inner">
                         @foreach($news as $key => $row)
                         <div class="trend-top-img carousel-item {{ $key == 0 ? 'active' : '' }}">
-                        <img src="{{ asset('/data_file/'. $row['pictures'??'']) }}" alt="" style="height:300px; width:800px;">
+                          <img src="{{ asset('/data_file/'. $row['pictures']??'') }}" alt="" style="height:300px; width:800px;">
                           <div class="trend-top-cap">
-                            <h2><a href="{{route('newsdetail',$row->id)}}">&nbsp;&nbsp;&nbsp;&nbsp;{{ isset($data->title) ? $data->title : null }}</a></h2>
+                            <h2><a href="{{route('newsdetail',$row->id)}}">&nbsp;&nbsp;&nbsp;&nbsp;{{ isset($row->title) ? $row->title : null }}</a></h2>
                           </div>
                         </div>
                         @endforeach

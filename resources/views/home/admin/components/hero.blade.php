@@ -45,7 +45,7 @@
                       <tbody>
                         @foreach($news as $row => $data)
                         <tr>
-                          <th scope="row">{{$data->id}}</th>
+                          <th scope="row">{{$loop->index+1}}</th>
                           <td><img width="150px" src="{{ URL::to('data_file/'.$data->pictures) }}"></td></td>
                           <td>{{$data->title??''}}</td>
                           <td>{{$data->description}}</td>
