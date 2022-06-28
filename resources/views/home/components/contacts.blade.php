@@ -7,7 +7,7 @@
           <h3>Contact Us</h3>
         </header>
       </div>
-        <div class="row features-icons">
+        <div class="row features-icons" data-aos="fade-up">
             
           <div class="col-lg-6">
 

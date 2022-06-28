@@ -617,6 +617,11 @@ section {
   font-size: 14px;
 }
 
+.experties .feature-icons .content .icon-box2 .isi h4 {
+  font-family: "robot",sans-serif;
+  font-weight: 600;
+}
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -757,12 +762,12 @@ section {
 .boost h1 {
   font-size: 30px;
   font-weight: 700;
-  color: white;
+  color: black;
 }
 
 .boost h3 {
   font-size: 20px;
-  color: white;
+  color: black;
 }
 .experties .features-icons .content .icon-box2 h4 {
   font-size: 18px;

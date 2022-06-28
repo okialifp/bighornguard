@@ -6,6 +6,8 @@
             <p style="color: #FFFFFF;">Measurement Unit Transmitter</p>
         </header>
     </div>
+    <br>
+    <br>
     <div class="row features-icons" data-aos="fade-up">
     <div class="row">
       <div class="col-xl-12 d-flex content" style="margin-left:30px;">
@@ -18,15 +20,14 @@
               <p>Suitable for the measurement of liquid level with high precision and accuracy reaches 0.1mm. Can also be applied between multiple different liquids. </p>
             </div>
           </div>
-
-          <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <i class="ri-dashboard-2-line icon"></i>
+          <div class="col-md-4 icon-box" data-aos="fade-up">
+            <i class="ri-drop-line icon" style="font: size 10px;"></i>
             <div>
-              <h4>Pressure</h4>
-              <p>A sensitive device that converts the pressure on the test piece into an electrical signal. </p>
+              <h4>Multi Gas Detector</h4>
+              <p>Gas Detection to Measure the compound substances and can accurately detect gas leakage or concentration of a particular hazardous gas in the air. </p>
             </div>
           </div>
-
+         
           <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="200">
             <i class="ri-heavy-showers-line icon"></i>
             <div>
@@ -58,13 +59,7 @@
               <p>Measure the current running through a wire by using the magnetic field to detect and generate a proportional output. </p>
             </div>
           </div>
-          <div class="col-md-4 icon-box" data-aos="fade-up">
-            <i class="ri-drop-line icon" style="font: size 10px;"></i>
-            <div>
-              <h4>Multi Gas Detector</h4>
-              <p>Measure the compound substances and can accurately detect gas leakage or concentration of a particular hazardous gas in the air. </p>
-            </div>
-          </div>
+          
 
           <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
             <i class="ri-dashboard-2-line icon"></i>
@@ -90,6 +85,14 @@
             </div>
           </div>
           
+          <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <i class="ri-dashboard-2-line icon"></i>
+            <div>
+              <h4>Pressure</h4>
+              <p>Converts the pressure on the test piece into an electrical signal. </p>
+            </div>
+          </div>
+
           <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="300">
             <i class="ri-meteor-fill icon"></i>
             <div>

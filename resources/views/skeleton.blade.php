@@ -6,7 +6,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>@yield('test','Bighorn Guard')</title>
-  <img src="{{ URL::to('src/img/bhtitle.png') }}" alt="">
+  <link rel = "icon" href = 
+"{{ URL::to('src/img/bhg_logo.svg') }}" 
+        type = "image/x-icon">
   <meta content="" name="description">
 
   <meta content="" name="keywords">
@@ -47,7 +49,7 @@
   <link rel="stylesheet" href="{{URL::to('src/news/css/nice-select.css')}}">
   <link rel="stylesheet" href="{{URL::to('src/news/css/style.css')}}">
   <link rel="stylesheet" href="{{URL::to('src/news/css/slider.css')}}">
-  <link rel="stylesheet" href="{{URL::to('src/bs4/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{URL::to('src/bs4/css/bootstrap.min.css')}}">x
 
   <!-- Template Main CSS File -->
   <link href="{{ URL::to('src/css/style.css') }}" rel="stylesheet">
