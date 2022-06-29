@@ -26,9 +26,9 @@
                     <div class="col-lg-12">
                         <div class="trending-tittle">
                           @foreach ($news as $data)
-                            <a data-aos="fade-up" href="{{route('newspageindex')}}"><strong><span>News</span></strong></a>
+                            <a data-aos="fade-up" href="{{route('newspageindex')}}" target="_blank"><strong><span>News</span></strong></a>
                             <!-- <p>Rem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-                            <div class="trending-animated">
+                            <div class="trending-animated" data-aos="fade-up">
                                 <ul id="js-news" class="js-hidden">
                                     <li  class="news-item"> {{ isset($data->title) ? $data->title : null }}</li>
                                 </ul>
@@ -39,7 +39,7 @@
                 </div>
                 
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12" data-aos="fade-up">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                       <div class="trending-top mb-30 carousel-inner">
                         @foreach($news as $key => $row)

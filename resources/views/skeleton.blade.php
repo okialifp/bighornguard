@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>@yield('test','Bighorn Guard')</title>
+  <title>@yield('title','Bighorn Guard')</title>
   <link rel = "icon" href = 
 "{{ URL::to('src/img/bhg_logo.svg') }}" 
         type = "image/x-icon">

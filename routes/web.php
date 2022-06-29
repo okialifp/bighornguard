@@ -6,6 +6,7 @@ use App\Http\Controllers\ReportController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\CarrerController;
 use App\report_user;
 
 /*
@@ -27,10 +28,6 @@ Route::get('/home/portfolio/project', function () {
 Route::get('/home/news/detail', function () {
     return view('home.news.detail');
 })->name('news_detail');
-
-Route::get('/home/news/all', function () {
-    return view('home.news.index');
-})->name('news_all');
 
 Route::get('components/report','ReportController@create')->name('create-report');
 Route::post('components/report',[ReportController::class, 'store'])->name('simpan-report');
@@ -56,5 +53,8 @@ Route::get('/report', [AdminController::class, 'indexreport'])->name('indexrepor
 Route::get('/home', [HomeController::class, 'heroindex'])->name('indexhero');
 Route::get('/home/news/all', [HomeController::class, 'newsindex'])->name('newspageindex');
 Route::get('/home/news/{id}', [HomeController::class, 'detailnews'])->name('newsdetail');
-Route::get('/home/carrer', [HomeController::class, 'carrerindex'])->name('indexcarrer');
+
+//carrer
+Route::get('/home/carrer', [CarrerController::class, 'carrerindex'])->name('indexcarrer');
+Route::get('/home/carrer/detail', [CarrerController::class, 'carrerdetail'])->name('detailcarrer');
 

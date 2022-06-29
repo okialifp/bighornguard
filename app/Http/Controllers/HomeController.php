@@ -22,8 +22,8 @@ class HomeController extends Controller
     }
     
     public function newsindex(){
-        $news = news::get();
-        return view('home.news.index',['news' => $news]);
+        $news = news::paginate(5);
+        return view('home.news.index',compact('news'));
     }
 
     public function carrerindex(){

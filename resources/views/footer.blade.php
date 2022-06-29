@@ -29,12 +29,7 @@
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">LIQUID LEVEL</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">TEMPERAURE</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">DETEKTOR GAS</a></li>
-            </ul>
+           
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
