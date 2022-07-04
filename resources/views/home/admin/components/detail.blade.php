@@ -84,7 +84,7 @@
             @foreach($news as $data)
             <div class="post-item clearfix">
               <img src="{{ URL::to('data_file/'.$data->pictures) }}" alt="">
-              <h4><a href="blog-single.html">{{$data->title}}</a></h4>
+              <h4><a href="{{route('newsdetail',$data ->id)}}">{{$data->title}}</a></h4>
               <time datetime="2020-01-01">{{$data->created_at}}</time>
             </div>
             @endforeach

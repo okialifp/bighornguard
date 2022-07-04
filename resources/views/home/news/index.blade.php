@@ -37,7 +37,8 @@
               <div class="entry-content">
                 
                 <p maxlength="50">
-                {{$data->description}} 
+                {{Str::limit($data->description, 200,  "(...)")}}
+                
                 </p>
                 <div class="read-more">
                   <a href="{{route('newsdetail',$data->id)}}">Read More</a>
