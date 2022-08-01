@@ -11,7 +11,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#features">Expertise</a></li>
           <li><a class="nav-link scrollto" href="#services">Overview</a></li>
-          <li><a class="nav-link scrollto" href="#product">Product</a></li>
+          <li><a class="nav-link scrollto" href="#product">BHG Feature Highlight</a></li>
           <li><a class="nav-link scrollto" href="#certificate">Certificate</a></li>
           <li><a class="nav-link scrollto" href="#learning">Learning</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>   

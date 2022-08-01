@@ -396,6 +396,7 @@ section {
 }
 .iniservices {
   width: 100%;
+  height: 100vh;
   background: url(../img/hero-bg\ copy.png) top center repeat fixed;
   background-size: cover;
 }
@@ -745,13 +746,13 @@ section {
 
 .experties .features-icons .content .row .icon-box2 h4 {
   font-size: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .experties {
   width: 100%;
   height: fit-content;
-  background-color: #EFEFEF ;
+  background-color: #000000 ;
 }
 
 

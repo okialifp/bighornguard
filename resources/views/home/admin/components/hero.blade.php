@@ -48,7 +48,7 @@
                           <th scope="row">{{$loop->index+1}}</th>
                           <td><img width="150px" src="{{ URL::to('data_file/'.$data->pictures) }}"></td></td>
                           <td>{{$data->title??''}}</td>
-                          <td>{{$data->description}}</td>
+                          <td>{{Str::limit($data->description, 100,  "(...)")}}</td>
                           <td>{{$data->created_at}}</td>
                         </tr>
                         @endforeach

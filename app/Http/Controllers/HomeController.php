@@ -17,11 +17,12 @@ class HomeController extends Controller
          
         $news = news::get();
         $detailNews = news::find($id);
-         return view('home.admin.components.detail',compact('news', 'detailNews'));
+        return view('home.admin.components.detail',compact('news', 'detailNews'));
 
     }
     
-    public function newsindex(){
+    public function newsindex()
+    {
         $news = news::paginate(5);
         return view('home.news.index',compact('news'));
     }
